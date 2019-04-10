@@ -36,6 +36,7 @@ export default (options = {}) => {
     config: inferOption(options.config, {}),
     /** PostCSS target filename hint, for plugins that are relying on it */
     to: options.to,
+    from: options.from,
     /** PostCSS options */
     postcss: {
       parser: options.parser,
